@@ -1,0 +1,565 @@
+<!doctype html>
+<html>
+<title>Pizza Gedara-Home</title>
+
+<head>
+    
+<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+  <style>
+    @media (max-width: 768px) {
+      .desktop-only {
+        display: none;
+      }
+    }
+  </style>
+    
+    <style>
+    body {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    footer {
+      background-color :lightcyan;
+      margin-top: auto;
+      padding: 20px; /* Adjust padding as needed */
+    }
+
+    /* Optional: Add styling for the row content */
+    .row {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .col-lg-3,
+    .col-lg-2 {
+      flex: 0 0 30%; /* Adjust the width of columns as needed */
+    }
+  </style>
+    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untitled Document</title>
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+  <link href="index.css" rel="stylesheet" type="text/css">
+  <link href="home.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light navbar fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent3"
+      aria-controls="navbarSupportedContent3" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarSupportedContent3">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a id="hm" class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="products2.php">Products<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="sign1.html">Order<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Vission<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="signAdmin.html">Admin<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Language</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+
+
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active"> <img class="d-block mx-auto img-fluid" src="images/caro1.png"
+          alt="First slide">
+
+        <div class="carousel-caption">
+
+          <p class="text-left slide-in-left" id="icon">
+            <script src="https://cdn.lordicon.com/lordicon-1.2.0.js"></script>
+            <lord-icon class="heartbeat" src="https://cdn.lordicon.com/pmhwxbpm.json" trigger="hover"
+              colors="primary:#e4e4e4" style="width:50px;height:50px">
+            </lord-icon>
+          </p>
+          <p class="text-left slide-in-left" id="icon">
+            <script src="https://cdn.lordicon.com/lordicon-1.2.0.js"></script>
+            <lord-icon class="heartbeat" src="https://cdn.lordicon.com/mfmkufkr.json" trigger="hover"
+              colors="primary:#e4e4e4" style="width:50px;height:50px">
+            </lord-icon>
+          </p>
+
+          <p id="head" class="slide-in-top">Pot Biriyani</p>
+          <p class="text-center d-none d-lg-block slide-in-bottom">Large(two person) - 1850/=<br>Regular(one person) -
+            850/=</p>
+
+          <p class="text-center d-none d-lg-block slide-in-bottom2">
+            Pot biryani is a classic Indian dish featuring basmati rice, protein (like chicken or vegetables), aromatic
+            spices, yogurt, onions, tomatoes, ghee or oil, saffron, nuts, and dried fruits. It's known for its rich,
+            layered flavors and enticing aroma.</p>
+
+        </div>
+      </div>
+      <div class="carousel-item"> <img class="d-block mx-auto img-fluid" src="images/caro2.png" alt="Second slide">
+        <div class="carousel-caption">
+          <p class="text-left slide-in-left" id="icon">
+            <script src="https://cdn.lordicon.com/lordicon-1.2.0.js"></script>
+            <lord-icon class="heartbeat" src="https://cdn.lordicon.com/pmhwxbpm.json" trigger="hover"
+              colors="primary:#e4e4e4" style="width:50px;height:50px">
+            </lord-icon>
+          </p>
+          <p class="text-left slide-in-left" id="icon">
+            <script src="https://cdn.lordicon.com/lordicon-1.2.0.js"></script>
+            <lord-icon class="heartbeat" src="https://cdn.lordicon.com/mfmkufkr.json" trigger="hover"
+              colors="primary:#e4e4e4" style="width:50px;height:50px">
+            </lord-icon>
+          </p>
+
+          <p id="head" class="slide-in-top">Pizza</p>
+          <p class="text-center d-none d-lg-block slide-in-bottom">Large(two person) - 1850/=<br>Regular(one person) -
+            850/=</p>
+
+          <p class="text-center d-none d-lg-block slide-in-bottom2">
+            Pot biryani is a classic Indian dish featuring basmati rice, protein (like chicken or vegetables), aromatic
+            spices, yogurt, onions, tomatoes, ghee or oil, saffron, nuts, and dried fruits. It's known for its rich,
+            layered flavors and enticing aroma.</p>
+        </div>
+      </div>
+      <div class="carousel-item"> <img class="d-block mx-auto img-fluid" src="images/caro3.png" alt="Third slide">
+
+        <div class="carousel-caption">
+          <p class="text-left slide-in-left" id="icon">
+            <script src="https://cdn.lordicon.com/lordicon-1.2.0.js"></script>
+            <lord-icon class="heartbeat" src="https://cdn.lordicon.com/pmhwxbpm.json" trigger="hover"
+              colors="primary:#e4e4e4" style="width:50px;height:50px">
+            </lord-icon>
+          </p>
+          <p class="text-left slide-in-left" id="icon">
+            <script src="https://cdn.lordicon.com/lordicon-1.2.0.js"></script>
+            <lord-icon class="heartbeat" src="https://cdn.lordicon.com/mfmkufkr.json" trigger="hover"
+              colors="primary:#e4e4e4" style="width:50px;height:50px">
+            </lord-icon>
+          </p>
+
+          <p id="head" class="slide-in-top">Lasagne</p>
+          <p class="text-center d-none d-lg-block slide-in-bottom">Large(two person) - 1850/=<br>Regular(one person) -
+            850/=</p>
+
+          <p class="text-center d-none d-lg-block slide-in-bottom2">
+            Pot biryani is a classic Indian dish featuring basmati rice, protein (like chicken or vegetables), aromatic
+            spices, yogurt, onions, tomatoes, ghee or oil, saffron, nuts, and dried fruits. It's known for its rich,
+            layered flavors and enticing aroma.</p>
+
+        </div>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"><span
+        class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a
+      class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span
+        class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+  </div>
+    
+ 
+    
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-12">
+        <center>
+          <div class="plan">
+            <div class="inner">
+              <span class="pricing">
+                <span>
+                  Rs 3700.00 <small>/ L</small>
+                </span>
+              </span>
+              <p class="title"><br>Chrismass Special<br>Pizza</p>
+              <p class="info">This plan is for those who have a team already and running a large business.</p>
+              <ul class="features">
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
+                      </path>
+                    </svg>
+                  </span>
+                  <span><strong>4</strong> Person</span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
+                      </path>
+                    </svg>
+                  </span>
+                  <span>Deviled <strong> Chicken</strong></span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
+                      </path>
+                    </svg>
+                  </span>
+                  <span>Free coke&nbsp;</span>
+                </li>
+              </ul>
+              <div class="action">
+                <a class="button" href="#">
+                  Order Now
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+      </center>
+
+      <div class="col-lg-3 col-12">
+
+        <center>
+          <div class="plan">
+            <div class="inner">
+              <span class="pricing">
+                <span>
+                  Rs 2850.00 <small>/ m</small>
+                </span>
+              </span>
+              <p class="title"><br>Family Pack<br>Biriyani</p>
+              <p class="info">This plan is for those who have a team already and running a large business.</p>
+              <ul class="features">
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
+                      </path>
+                    </svg>
+                  </span>
+                  <span><strong>4</strong> Person</span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
+                      </path>
+                    </svg>
+                  </span>
+                  <span> Devilled<strong> Chicken</strong></span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
+                      </path>
+                    </svg>
+                  </span>
+                  <span>Free Coke</span>
+                </li>
+              </ul>
+              <div class="action">
+                <a class="button" href="#">
+                  Order Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </center>
+
+
+      </div>
+
+      <div class="col-lg-6"><br>
+        <p class="text-center heartbeat text-center">- Pizza Gedara -</p>
+
+        <p class="text-justify">Welcome to "Pizza Gedara" – your go-to spot for delicious pizzas and flavorful biryanis!
+          Our pizzas are crafted with care, featuring a golden crust and mouthwatering toppings. Whether you're a fan of
+          classic or adventurous flavors, we've got something for every pizza lover.<br><br>
+
+          And if you're in the mood for biryani, we've got you covered! Our biryanis are a perfect blend of fragrant
+          rice, succulent meats, and aromatic spices, delivering a taste that's simply irresistible.<br><br>
+
+          At Pizza Gedara, we're all about quality and satisfaction. Join us for a quick bite, order for delivery, or
+          cater your event with our scrumptious offerings. Pizza Gedara – where good times and great flavors meet!</p>
+      </div>
+
+
+    </div>
+  </div>
+
+    
+    
+   
+
+<br><br>
+    
+   <center> <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+
+<svg viewBox="0 0 1320 300">
+  <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+    Most Populer
+  </text>
+</svg></center>
+<div class="container-fluid">
+    <div class="row" id="item">
+
+      <div class="col-lg-3 col-12"><br>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://i.ytimg.com/vi/PVO-4Jnjpfk/maxresdefault.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2 class="text-center">Chicken Biriyani</h2>
+              <p>
+                Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue
+                bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
+              </p>
+              <button>
+                <span>Order Now</span>
+                <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+                  <path
+                    d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                    fill="black"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3 col-12">
+        <br>
+        <article>
+
+          <div class="article-wrapper">
+            <figure>
+              <img
+                src="https://store.mahaweli.com/wp-content/uploads/2021/03/03-Pizza-Diavola-Spicy-Devilled-Chicken-Pizza-scaled.jpg"
+                alt="" />
+            </figure>
+            <div class="article-body">
+              <h2 class="text-center">Devilled Chicken</h2>
+              <p>
+                Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue
+                bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
+              </p>
+              <button>
+                <span>Order Now</span>
+                <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+                  <path
+                    d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                    fill="black"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+      <div class="col-lg-3 col-12">
+
+        <br>
+        <article>
+
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://plantifullybasedblog.com/wp-content/uploads/2019/06/2-min.jpeg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2 class="text-center">Cheese Pizza</h2>
+              <p>
+                Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue
+                bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
+              </p>
+              <button>
+                <span>Order Now</span>
+                <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+                  <path
+                    d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                    fill="black"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+      <div class="col-lg-3 col-12">
+
+        <br>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://thecozycook.com/wp-content/uploads/2022/04/Lasagna-Recipe.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2 class="text-center">Meat Lasagna</h2>
+              <p>
+                Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue
+                bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
+              </p>
+              <button>
+                <span>Order Now</span>
+                <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+                  <path
+                    d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                    fill="black"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </div><br><br>
+    
+    
+    <center><link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+
+<svg viewBox="0 0 1320 300">
+  <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+    Recomended
+  </text>
+</svg> </center>  
+    
+    
+    
+  <div class="container-fluid" id="items2">
+    <div class="row" id="item3">
+      <div class="col-lg-3 col-12"><br>
+        <article>
+          <div class="article-wrapper">
+            <figure> <img src="https://i.ytimg.com/vi/PVO-4Jnjpfk/maxresdefault.jpg" alt="" /> </figure>
+            <div class="article-body">
+              <h2 class="text-center">Chicken Biriyani</h2>
+              <p> Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue
+                bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas. </p>
+              <button> <span>Order Now</span>
+                <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+                  <path
+                    d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                    fill="black"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3 col-12"> <br>
+        <article>
+          <div class="article-wrapper">
+            <figure> <img
+                src="https://store.mahaweli.com/wp-content/uploads/2021/03/03-Pizza-Diavola-Spicy-Devilled-Chicken-Pizza-scaled.jpg"
+                alt="" /> </figure>
+            <div class="article-body">
+              <h2 class="text-center">Devilled Chicken</h2>
+              <p> Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue
+                bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas. </p>
+              <button> <span>Order Now</span>
+                <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+                  <path
+                    d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                    fill="black"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3 col-12"> <br>
+        <article>
+          <div class="article-wrapper">
+            <figure> <img src="https://plantifullybasedblog.com/wp-content/uploads/2019/06/2-min.jpeg" alt="" /> </figure>
+            <div class="article-body">
+              <h2 class="text-center">Cheese Pizza</h2>
+              <p> Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue
+                bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas. </p>
+              <button> <span>Order Now</span>
+                <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+                  <path
+                    d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                    fill="black"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3 col-12"> <br>
+        <article>
+          <div class="article-wrapper">
+            <figure> <img src="https://thecozycook.com/wp-content/uploads/2022/04/Lasagna-Recipe.jpg" alt="" /> </figure>
+            <div class="article-body">
+              <h2 class="text-center">Meat Lasagna</h2>
+              <p> Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue
+                bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas. </p>
+              <button> <span>Order Now</span>
+                <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+                  <path
+                    d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                    fill="black"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+<script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+
+    <br><br>
+
+  <footer>
+<!--    Content for New footer Tag Goes Here-->
+    <div class="row">
+      <div class="col-12 col-lg-4"><p class="text-center">Pizza Gedara</p><p class="text-justify">Welcome to "Pizza Gedara" – your go-to spot for delicious pizzas and flavorful biryanis! Our pizzas are crafted with care, featuring a golden crust and mouthwatering toppings. Whether you're a fan of classic or adventurous flavors, we've got something for every pizza lover.</div>
+      <div class="col-lg-3 col-12">Content goes here</p></div>
+      <div class="col-lg-3">Content goes here</div>
+      <div class="col-lg-2">Content goes here</div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
